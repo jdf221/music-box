@@ -56,7 +56,7 @@ async function main() {
       name = name.substring(0, i);
     }
     // pad short strings
-    name = name.padEnd(26 + name.length - eaw.length(name));
+    name = name.padEnd(24 + name.length - eaw.length(name));
 
     lines.push(
       [
